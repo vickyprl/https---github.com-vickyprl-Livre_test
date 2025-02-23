@@ -1,9 +1,9 @@
 <div>
     <input type="text" [(ngModel)]="newBookTitle" placeholder="Entrez le titre d'un livre" />
     <button (click)="addBook()">Save</button>
-  </div>
-  
-  <ul>
-    <li *ngFor="let book of books">{{ book }}</li>
-  </ul>
 
+    <ul>
+        <li *ngFor="let book of books">{{ book }}</li>
+    </ul>
+
+</div>
